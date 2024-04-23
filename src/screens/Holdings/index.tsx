@@ -19,7 +19,7 @@ const renderItem = ({ index, item }: IRenderItemProp) =>  {
         </View>
         <View style={styles.itemRowSecondary}>
           <Text>{item.quantity}</Text>
-          <Text>P&L: <Text style={styles.boldText}>₹ {totalPnl.toFixed(2)}</Text></Text>
+          <Text>P/L: <Text style={styles.boldText}>₹ {totalPnl.toFixed(2)}</Text></Text>
         </View>
       </View>
     </TouchableOpacity>
